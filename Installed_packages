@@ -1,0 +1,23 @@
+
+npm install react-navigation
+npm install native-base
+npm install react-navigation-stack
+npm install react-navigation-drawer
+npm install react-native-vector-icons
+npm install react-navigation-tabs
+npm install react-native-screens
+npm install react-native-gesture-handler
+npm install react-native-reanimated
+npm install @react-native-community/masked-view
+npm install --save react-navigation-header-buttons
+npm install --save '@expo/vector-icons'
+npm install --save redux react-redux redux-thunk
+
+expo install expo-image-picker
+expo install expo-permissions
+expo install expo-file-system
+expo install expo-sqlite
+
+npm install react-native-webview
+
+expo start --clear
