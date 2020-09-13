@@ -1,3 +1,5 @@
+
+/*
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { WebView } from 'react-native-webview';
@@ -12,16 +14,19 @@ class Home extends Component {
 
 export default Home;
 
+*/
 
-/*
+
 import { Container, Content, List, Text } from 'native-base';
 import React, { Component } from 'react';
 import { StyleSheet, TouchableOpacity ,Image} from 'react-native';
 
-import pickIt from '../img/pickIt.png';
-import twitter from '../img/twitter.png'
-import chambers from '../img/water.png'
-import pipe from '../img/pipe.png'
+import Slider from '../components/ImageSlider'
+
+import Service from '../img/Service.png';
+import Docs from '../img/Docs.png'
+import Projects from '../img/Projects.png'
+import jhb from '../img/jhb.jpg'
 
 
 class Home extends Component {
@@ -36,29 +41,28 @@ class Home extends Component {
          
           <List style= {styles.container}>
 
+            <Slider />
+
+
             <TouchableOpacity >
 
-              <Image style={styles.cardImage} source={pickIt} />
+              <Image style={styles.card} source={Service} />
               
             </TouchableOpacity>
 
             <TouchableOpacity >
 
-              <Image style={styles.cardImage} source={pipe} />
+              <Image style={styles.card} source={Docs} />
               
             </TouchableOpacity>
 
             <TouchableOpacity >
 
-              <Image style={styles.cardImage} source={twitter} />
+              <Image style={styles.card} source={Projects} />
               
             </TouchableOpacity>
 
-            <TouchableOpacity >
-
-              <Image style={styles.cardImage} source={chambers} />
-              
-            </TouchableOpacity>
+            
 
           </List>
         </Content>
@@ -71,20 +75,14 @@ class Home extends Component {
  
 const styles = StyleSheet.create({
   card: {
+    resizeMode: "stretch",
+    marginTop:10,
+    height: 125,
     backgroundColor: '#fff',
     borderLeftWidth: 2.5,
     borderRightWidth: 2.5,
     borderTopWidth: 2.5,
-    borderColor: '#d6d7da',
     width: '100%',
-    shadowColor: '#000',
-    shadowOpacity: 0.2,
-    shadowRadius: 1,
-    shadowOffset: {
-      width: 3,
-      height: 3
-    },
-    
   },
   cardImage: {
     width: '100%',
@@ -101,4 +99,4 @@ const styles = StyleSheet.create({
 });
 
 export default Home;
-*/
+
