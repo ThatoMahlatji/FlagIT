@@ -4,9 +4,9 @@
     "slug": "FlagIT",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LogIt.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/maintenance.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
