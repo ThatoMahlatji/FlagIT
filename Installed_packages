@@ -31,4 +31,11 @@ AIzaSyC0yO8wIUkY6ZNIUsF7exVDMLXQvZGxzRY
 latitude: -26.202599,
 longitude: 28.031300,
 
+expo publish
+expo build:android -t apk
 
+⚙Project page: https://expo.io/@t.j.mahlatji/FlagIT Learn more: https://expo.fyi/project-page
+
+Successfully built standalone app: https://expo.io/artifacts/eea6c49d-1370-406d-8f2f-0a45bf8fd95a
+
+You can check the queue length at https://expo.io/turtle-status
